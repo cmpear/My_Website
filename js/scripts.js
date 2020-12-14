@@ -9,7 +9,7 @@ $(document).ready(function() {
         $("#login-modal").modal();
     });
     
-    $('#mycarousel').carousel({ interval: 2000 });
+    $('#mycarousel').carousel({ interval: 3000 });
     $('#carouselButton').click(function() {
         if ($('#carouselButton').children('span').hasClass('fa-pause') ){
             $('#mycarousel').carousel('pause');
