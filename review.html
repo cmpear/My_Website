@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class='col-6 col-sm-3 align-self-center'>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-warning btn-lg" id="reserve-modal-button">Reserve Table</button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Reserve a Table</h3>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div>
+                <hf class='text-dark'><strong>Number of Guests</strong></hf>
+            </div>
+            <div>
+                <label class='btn btn-light'>
+                    <input type='radio' name='guests' id='guests1' checked> 1
+                    <input type='radio' name='guests' id='guests2'> 2
+                    <input type='radio' name='guests' id='guests3'> 3
+                    <input type='radio' name='guests' id='guests4'> 4
+                    <input type='radio' name='guests' id='guests5'> 5
+                    <input type='radio' name='guests' id='guests6'> 6
+                </label>    
+            </div>
+            <div>
+              <button class='btn btn-lg bg-success' type='radio' name='smoking' id='nonsmoking' checked>
+                  <strong class='text-white'>Non-Smoking</strong>
+              </button>
+              <button class='btn btn-lg bg-danger' type='radio' name='smoking' id='smoking'>
+                  <strong class='text-white'>Smoking</strong>
+              </button>
+            </div>
+            <div>
+              <h4>Date and Time</h4>
+            </div>
+            <div class='row'>
+              <div class='col-12 col-md-6'>
+                  <input type='date' class='form-control' id='date' name='date'>
+              </div>    
+              <div class='col-12 col-md-6'>
+                  <input type='time' class='form-control' id='time' name='time'>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type='submit' class='btn btn-primary btn-sm ml-1'>
+              <strong>Reserve</strong>
+            </button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#reserve-modal-button").click(function(){
+    $("#myModal").modal();
+  });
+});
+</script>
+
+</body>
+</html>
