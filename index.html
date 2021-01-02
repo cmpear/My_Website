@@ -30,7 +30,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <!-- li class="nav-item"><a class="nav-link" href="./projects.html"><span class="fa fa-list fa-lg"></span> Projects</a></li -->
+                        <li class="nav-item"><a class="nav-link" href="./projects.html"><span class="fa fa-list fa-lg"></span> Projects</a></li>
                     </ul>
 <!--   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
 <!--   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
@@ -91,8 +91,10 @@
                     <div id='mycarousel' class='carousel slide' data-ride='carousel'>
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <img class="d-block img-fluid"
+                                <a href="https://github.com/cmpear/Stock_Price_Prediction/blob/master/Presentation.pdf">
+                                    <img class="d-block img-fluid"
                                     src="img/TSLA_Predictions.png" alt="TSLA_Predictions">
+                                </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <h2 style='color:rgb(127, 216, 209)'>Predictive Models </h2>
                                         <span class='badge badge-danger'>Machine Learning</span>
@@ -104,8 +106,10 @@
                             </div>
                             <div class='carousel-item'>
                                 <div class='col-4'>
-                                    <img class='d-block img-fluid'
+                                    <a href="http://34.213.126.123:3838/Jap_Elections_w_Leaflet/">
+                                        <img class='d-block img-fluid'
                                         src='img/Japan_Ternary.png' alt='Japan_Ternary'>
+                                    </a>
                                 </div>
                                 <div class='carousel-caption'>
                                     <h2 style='color:rgb(127, 216, 209)' class='mt-0'>Data Visualization</h2>
@@ -205,263 +209,66 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- closes modal-->
-    </div> <!-- closes row -->
-</div> <!-- closes container -->
+        </div> <!-- closes container-->
     </header>
+
 
     <div class="container">
         <div class='row row-content align-items-center'>
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Look Deeper than the Media Conversation</h3>
+            <div class="col-none order-sm-last col-md-3">
+                <h3>Explore Deep Learning!</h3>
             </div>
             <div class='col col-sm order-sm-first col-md'>
                 <div class='media'>
-                    <img class='d-flex mr-3 img-thumbnail align-self-center'
-                        src='img/Shootings.png' alt='Shootings'>
+                    <a href="https://github.com/cmpear/pdf_projects/blob/main/Image_Captioning_Presentation.pdf">
+                        <img class='d-flex mr-3 img-thumbnail align-self-center'
+                        src='img/dog_frisbee.png' alt='dog_frisbee'>
+                    </a>
                     <div class='media-body'>
-                        <h2 class='mt-0'>Policing in America<span class='badge badge-danger'>Current Events</span></h2>
-                        <p class='d-none d-sm-block'>Data on many of the most pressing issues of the day are available.  Tired of hearing media personalities talk past one anohter, I dug into the data to better understand the nature of one of our most pressing problems.</p>   
+                        <h2 class='mt-0'>Image Captioning Project<span class='badge badge-danger'>Machine Learning</span></h2>
+                        <p class='d-none d-sm-block'>We trained a model to generate captions for images.  Utilizing Deep Learning and piggybacking off of Google's InceptionV3, our model can generate captions for any picture.  Works best with photographs, but can also work well with realistic pictures--including cartoons and anime.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class='row row-content align-items-center'>
-            <div class="col-12 col-sm-4 col-md-3">
-                <h3>Get the Right Tool for the Data</h3>
+            <div class="col-none col-sm-4 col-md-3">
+                <h3>Anticipate Market Prices</h3>
             </div>
             <div class='col col-sm col-md'>
                 <civ class='media'>
                     <div class='media-body'>
-                        <h2 class='mt-0'>Rope Ladders<span class='badge badge-danger'>Custom Visuals</span></h2>
-                        <p class='d-none d-sm-block'>Sometimes the results of regression analysis are difficult for even a statistician to interpret.  Rope Ladders are a convenient visualization to make even complex models intuitively understanable. </p>    
+                        <h2 class='mt-0'>Predicting Tesla's Stock Price<span class='badge badge-danger'>Market Forecasting</span></h2>
+                        <p class='d-none d-sm-block'>For this project, I trained a Long-Short Term Memory model to predict Tesla's stock price, and evaluated how effective these models are at predicting stock prices.</p>    
                     </div>
-                    <img class='d-flex mr-3 img-thumbnail align-self-center'
-                        src='img/Rope_Ladder.png' alt='Rope_Ladder'>
+                    <a href="https://github.com/cmpear/pdf_projects/blob/main/Predicting%20Stock%20Prices-TSLA.pdf">
+                        <img class='d-flex mr-3 img-thumbnail align-self-center'
+                        src='img/TSLA_pred_zoomed.png' alt='Shootings'>    
+                    </a>
                 </civ>
             </div>
         </div>
 
-
-        <div class='row row-content'>
- 
-            <div class='col-12'>
-                <h2>Projects</h2>
-                <div id='accordion'>
-    
-                    <div class="card">
-                        <div id="stock_price_pred-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#stock_price_pred" aria-expanded="false" aria-controls="stock_price_pred">
-                                    Stock Price Predictions <small>Machine Learning & Research</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="stock_price_pred" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    This is a project intended to explore how effective machine learning using RNN networks is for predicting stock prices.  The project examines how well LSTM models predicted the prices of five technology stocks.  Ultimatley, it finds that these models work well with cyclic and gradual acyclic changes, but not sudden acyclic changes.  
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Facebook_Pred.png' alt='Facebook Predictions'>
-                                <a class="nav-link" href="https://github.com/cmpear/Stock_Price_Prediction/blob/master/Presentation.pdf">Goto Stock Price Prediction Project</a>  
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <div id="imageCaptioning-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#imageCaptioning" aria-expanded="false" aria-controls="imageCaptioning">
-                                    Image Captioning <small>Machine Learning</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="imageCaptioning" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    This project joins a Convolutional Neural Network (CNN) with a Recurrent Neural Network (RNN) to train a model to create captions for images.  The project piggybacks on Google's InceptionV3 model to save on training time for the CNN.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Image_Captioning.png' alt='Image Captioning'>
-                                <a class="nav-link" href="https://github.com/cmpear/pdf_projects/blob/main/Image_Captioning_Project.pdf">Goto Image Captioning Project</a>  
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="alliance_builder-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#alliance_builder" aria-expanded="false" aria-controls="alliance_builder">
-                                    Alliance Builder <small>Dashboard</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="alliance_builder" class="collapse" aria-labelledby='headingOne' data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    This project is a dashboard showing the results from Japanese elections, and allowing the user to explore hypothetical electoral allainces.  The dashboard consists of a ternary plot and a map.  One can also save the ternary plot one is looking at to do comparisons between election years and hypothetical coalitions.  This is the first Shiny App I made, so some of the code is a bit rough.  
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Alliance_Builder.png' alt='Alliance Builder'>
-                                <a class="nav-link" href="http://34.213.126.123:3838/Jap_Elections_w_Leaflet/">Goto Alliance Builder</a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="police_shootings-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#police_shootings" aria-expanded="false" aria-controls="agumbe">
-                                    Police Shootings <small>Dashboard</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="police_shootings" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    Concerned about police shootings in the United States, I build this package to facilitate exploring the Washington Post's dataset on police shootings.  Built using Shiny in R, this package not only allows one to filter the data, but also includes numerous visualizations breaking down shootings by race, age, weapons, location, and other variable.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Police_Shootings.png' alt='Police Shootings'>
-                                <a class="nav-link" href="http://34.213.126.123:3838/Police_Shootings/">Goto Police Shootings Dashboard</a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="yearlyReports-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#yearlyReports" aria-expanded="false" aria-controls="yearlyReports">
-                                    Yearly Reports <small>Research</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="yearlyReports" class="collapse" aria-labelledby='headingOne' data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    How much do yearly reports effect stock prices?  Are their contents mostly anticipated, leading them to have little effect?  Do investors rush to respond to them, so that their effect is mostly felt the day they are released?  Or, is their contents absorbed over time as news articles slowly diseminate their implications?  This project investigated when quarterly reports are most effective at predicting stock prices--ultimatley finding peaks at 5 and 30 business days after the end of the quarter.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Yearly_Reports.png' alt='Yearly Reports'>
-                                <a class="nav-link" href="https://cmpear.github.io/StepRegression/articles/yearly_report_analysis.html">Goto Quarterly Reports Project</a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="schools-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#schools" aria-expanded="false" aria-controls="schools">
-                                    Washington State School Performance <small>Research</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="schools" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    Originally part of a statistics final for Hierarchic Modeling, I chose to revist the project and better explore the factors contributing or detracting from School Performance in Washington State.  If you are wondering where to enroll your children, the answer is Grant, Pend Oreille, Stevens, or Kitsap County.  Otherwise, the results are similar to what one woudl expect: poverty (as measured by the number of students on food assistance) is a strong predictor of poor school performance.  Combining poverty with a large non-white population is a strong factor as well.  Having more students per teacher has a slightly negative effect, but higher enrollment is associated with better performance--perhaps the effect of parents seeking out better schools.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/School_Performance.png' alt='School Performance'>
-                                <a class="nav-link" href="https://github.com/cmpear/school_performance_in_washington/blob/master/school_performance.pdf">Goto Washington Schools Project</a>  
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="unempDeaths-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#unempDeaths" aria-expanded="false" aria-controls="alberto">
-                                    Unemployment and Deathrate <small>Package & Research</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="unempDeaths" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    In response to COVID-19, most states locked down, which unfortunately contributed to sharp increases in unemployment.  Some critics raised the question of whether the lockdowns were worse than the virus.  This however, is an empirical question.  How does the suicide, homicide, and general deathrate differ in counties with high vs low unemployment?  How is it affected by U3 (standard unemployment) vs U5 (unemployment with discouraged workers included)?  This project aims to shed some light on these questions, ultimately finding that while a 1% increase in standard unemployment has little effect, a 1% move toward U5 unemploymnet results in roughly a 10% increase in homicide and suicide rates (though these are small numbers to begin with).
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Unemp_Deaths.png' alt='Unemployment Deaths'>
-                                <a class="nav-link" href="https://cmpear.github.io/UnempDeaths/">Goto Project for Unemployment Deaths</a>  
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="earthquakes-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#earthquakes" aria-expanded="false" aria-controls="alberto">
-                                    Earthquakes Visualization <small>Package & Visualization Tool</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="earthquakes" class="collapse" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    This is a project created to help wtih analyzing NOAA data on earthquakes.  First, it includes a new geom for ggplot2 for creating timelines of earthquakes or simliar data that consist of time and two other quantitative variables.  Second, it includes a function for geospatially plotting earthquake data using Leaflet.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Earthquakes.png' alt='Earthquakes'>
-                                <a class="nav-link" href="https://cmpear.github.io/Earthquakes/articles/demo.html">Goto Earthquakes Project</a>  
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div id="stepRegression-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#stepRegression" aria-expanded="false" aria-controls="stepRegression">
-                                    Step Regression <small>Package</small>
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="stepRegression" class="collapse" aria-labelledby='headingOne' data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    This project uses linear algebra to perform a regression one variable at a time, and show how the residuals change as each variable of the design matrix is regressed from the response vector.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/Step_Regression.png' alt='Step Regression'>
-                                <a class="nav-link" href="https://cmpear.github.io/StepRegression/articles/demo.html">Goto Step Regression Package</a>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class='card'>
-                        <div id="teaset-head" class="card-header" role="tab">
-                            <h3 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#teaset" aria-expanded="true" aria-controls="peter">
-                                    TeaSet <small>Package</small>                                
-                                </button>
-                            </h3>
-                        </div>
-    
-                        <div id="teaset" class="collapse" aria-labelledby='headingOne' data-parent="#accordion">
-                            <div class="card-body">
-                                <p class='d-none d-sm-block'>
-                                    This is a package for building ternary plots.  It is the first R package I developed, and was a learning experience for me.  I learn best by doing, and building this package taught me a lot about package development and how classes work in R.  Rather than working with an advanced plotting package like ggplot2, lattice, or tile, this is instead built from scratch using R's base graphics capabilities.
-                                </p>
-                                <img class='d-block img-fluid'
-                                src='img/TeaSet.png' alt='TeaSet'>
-                                <a class="nav-link" href="https://cmpear.github.io/TeaSet_Package/index.html">Goto TeaSet Package</a>
-                            </div>
-                        </div>
+        <div class='row row-content align-items-center'>
+            <div class="col-none order-sm-last col-md-3">
+                <h3>Interactive Visuals</h3>
+            </div>
+            <div class='col col-sm order-sm-first col-md'>
+                <div class='media'>
+                    <a href='http://34.213.126.123:3838/Police_Shootings/'>
+                        <img class='d-flex mr-3 img-thumbnail align-self-center'
+                        src='img/Shootings2.png' alt='dog_frisbee'>
+                    </a>
+                    <div class='media-body'>
+                        <h2 class='mt-0'>Police Shootings<span class='badge badge-danger'>Current Events</span></h2>
+                        <p class='d-none d-sm-block'>We trained a model to generate captions for images.  Utilizing Deep Learning and piggybacking off of Google's InceptionV3, our model can generate captions for any picture.  Works best with photographs, but can also work well with realistic pictures--including cartoons and anime.
+                        </p>
                     </div>
                 </div>
             </div>
-       </div>
+        </div>
 
         <div class='row row-content align-items-center'>
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -489,8 +296,7 @@
                     <ul class='list-unstyled'>
                         <li><a href="#">Home</a></li>
                         <li><a href="./aboutus.html">About Us</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
                     </ul>
                 </div>
                 <div class='col-7 col-sm-5'>
